@@ -1,0 +1,126 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-size:16px;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  padding:0px;
+  margin:0px;
+}
+
+.heroPanel{
+  color:white;
+  padding:1em 0.5em;
+  background-image: url('Contactenos.jpg');
+  background-repeat: none;
+  background-size: cover;
+  min-height: 400px;
+}
+
+h1{
+  font-size: 65px;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+
+.informacion{
+  text-align: left;
+  padding-top: 5em;
+  padding-left: 2em;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 0em;
+  height: 417px;
+
+}
+
+.informacion p{
+  margin-bottom: 0em;
+  padding-bottom: 1em;
+}
+
+.informacion h2{
+  color: rgb(246, 180, 66);
+}
+
+.enviarmensaje{
+  text-align: center;
+}
+
+.infoymensaje{
+}
+
+
+fieldset{
+
+  max-width: 940px;
+  margin: 0px;
+  width: 50%;
+  background: rgb(213, 213, 213);
+  border: 0px;
+  height: 417px;
+}
+
+
+fieldset textarea{
+  width: 90%;
+  margin: 1em auto;
+  display: block;
+  font-size: 16px;
+  font-size: 1em;
+  height: 8em;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+fieldset input{
+  width: 90%;
+  margin: 1em auto;
+  display: block;
+  font-size: 16px;
+  font-size: 1em;
+}
+
+
+
+
+.abajo{
+background-color: rgb(162, 162, 162);
+width: auto;
+height: 5em;
+padding: 5em;
+}
+
+@media (max-width:1024px) {
+
+  *{
+    font-size: 1.13em;
+  }
+  .informacion{
+    height: 610px;
+  }
+
+  fieldset{
+  max-width: none;
+  width: 100%;
+  margin: 0px;
+  height: 700px;
+  }
+
+  .informacion{
+    text-align: center;
+  }
+
+}
+
+@media (min-width:1024px) {
+
+fieldset{
+float: right;
+
+}
+
+
+
+}

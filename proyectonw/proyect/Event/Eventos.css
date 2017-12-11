@@ -1,0 +1,72 @@
+body{
+  background-color: white;
+}
+
+h1, h2{
+  text-align: center;
+}
+.whiteboard{
+  background-color: #eee;
+  width:1200px;
+  border: 3px solid rgb(210, 206, 94);
+  box-shadow: 1px 1px 3px #000;
+  margin: 25px auto;
+  padding:16px;
+  clear:both;
+  overflow: auto;
+  min-height:400px;
+}
+
+.sticky{
+  float:left;
+  background-color: rgb(210, 206, 94);
+  width:220px;
+  min-height: 250px;
+  padding:16px 8px 4px 8px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  margin-right:8px;
+  box-shadow: 1px 1px 5px #333;
+}
+.sticky span{
+  display: block;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border:1px  solid rgb(107, 28, 7);
+  background-color: rgb(242, 67, 29);
+  margin: 2px auto;
+  box-shadow:3px 3px 7px #333;
+}
+.sticky p{
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.sticky:nth-child(2n){
+  width:300px;
+  margin-top: 200px;
+}
+
+.sticky:nth-child(3n){
+  width:195px;
+}
+
+.sticky:nth-child(5n){
+  width:300px;
+  margin-top: 200px;
+}
+
+@media (min-width:480px){
+  .whiteboard{
+    width:500px;
+  }
+  .sticky:nth-child(1n){
+    margin: 10px 10px 5px 10px;
+  }
+}
+@media (min-width:970px){
+  .whiteboard{
+    width: 1200px;
+  }
+
+}

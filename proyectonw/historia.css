@@ -1,0 +1,112 @@
+*{
+  margin-top: 0px;
+}
+.reseña{
+  font-size:13px;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  padding:0px;
+  margin-top: 0px;
+  text-align: justify;
+
+}
+.logo{
+  width: 40%;
+  display:inline-block;
+  vertical-align:top;
+  padding: 8px;
+}
+.menú{
+  width: 58%;
+  display:inline-block;
+  vertical-align:top;
+}
+
+h3{
+  font-size: 20px;
+  font-style: normal;
+
+}
+nav{
+  margin: 50px;
+  padding: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  width: 15%;
+  padding: 0.50em 0.05em;
+  color: white;
+  vertical-align: baseline;
+  text-align: center;
+  margin:auto;
+}
+
+nav ul li :hover{
+
+  border-bottom: solid #ff0000;
+
+}
+nav ul li a{
+  color: black;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+.legado{
+  font-size:13px;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  padding:0px;
+  margin-top: 50px;
+  text-align: justify;
+
+
+}
+
+.logros{
+  font-size:13px;
+  font-size: 1em;
+  padding:0px;
+  margin-top: 50px;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color: #466CA6;
+}
+main{
+margin: 100px;
+
+}
+
+.imagen{
+  box-sizing: padding-box;
+  width:100%;
+  background-color:#black;
+  overflow:auto;
+  float: right;
+  padding: 0px;
+  background: #EEE;
+  width: 100%;
+  background-image: url('imagenes/abc.jpg');
+  background-size: cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  height:400px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+
+}
+
+@media (min-width:1024px) {
+  body{
+    margin-top:0px;
+  }
+
+  main{
+    max-width:920px;
+    margin: 1em auto;
+  }
+}
